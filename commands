@@ -1,0 +1,5 @@
+For generating conroller with name pages
+rails generate controller Pages
+
+2)
+
