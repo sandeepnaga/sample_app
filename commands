@@ -1,5 +1,6 @@
 For generating conroller with name pages
 rails generate controller Pages
 
-2)
+2)For running test cases in spec folder using rspec
+rspec spec/
 
