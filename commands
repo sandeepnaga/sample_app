@@ -4,3 +4,30 @@ rails generate controller Pages
 2)For running test cases in spec folder using rspec
 rspec spec/
 
+3)For generating a model with fields
+rails generate model User name:string email:string
+
+
+
+#Active Record commands
+1) For creating new object 
+User.new(with parameter)
+
+2)For saving created object
+User.save
+
+3)For directly creating and saving object
+User.create(with parameters)
+
+4)For updating any attribute.After setting the attribute in the first way we need to call user.save. Otherwise it wont reflect in database.
+user.parameter="blah blah"
+user.save
+       (or)
+user.update_attributes(paramters hash to update)
+
+5)After setting the parameter if you want to reset to actual object with values in database u need to call
+user.reload.parameter
+
+
+
+ 

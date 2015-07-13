@@ -6,10 +6,11 @@ gem 'rails', '3.0.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
-
+gem 'rake', '0.8.7'
 
 group :development do
 gem 'rspec-rails', '2.4.0'
+#gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 end
 group :test do
 gem 'rspec', '2.4.0'
