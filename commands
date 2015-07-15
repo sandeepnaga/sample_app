@@ -7,7 +7,8 @@ rspec spec/
 3)For generating a model with fields
 rails generate model User name:string email:string
 
-
+4)For adding a column to the table
+rails generate migration add_password_to_users encrypted_password:string
 
 #Active Record commands
 1) For creating new object 
