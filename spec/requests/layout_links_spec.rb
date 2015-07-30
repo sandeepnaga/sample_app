@@ -34,4 +34,10 @@ describe "LayoutLinks" do
     click_link "Sign up now!"
     response.should # fill in
   end
+
+
 end
+
+
+
+
